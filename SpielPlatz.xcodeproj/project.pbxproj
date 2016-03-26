@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DD6262C1CA68F4300212A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6262B1CA68F4300212A4F /* AppDelegate.swift */; };
+		6DD6262E1CA68F4300212A4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6262D1CA68F4300212A4F /* ViewController.swift */; };
+		6DD626311CA68F4300212A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD6262F1CA68F4300212A4F /* Main.storyboard */; };
+		6DD626341CA68F4300212A4F /* SpielPlatz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DD626321CA68F4300212A4F /* SpielPlatz.xcdatamodeld */; };
+		6DD626361CA68F4300212A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD626351CA68F4300212A4F /* Assets.xcassets */; };
+		6DD626391CA68F4300212A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD626371CA68F4300212A4F /* LaunchScreen.storyboard */; };
+		6DD626441CA68F4400212A4F /* SpielPlatzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD626431CA68F4400212A4F /* SpielPlatzTests.swift */; };
+		6DD6264F1CA68F4400212A4F /* SpielPlatzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6264E1CA68F4400212A4F /* SpielPlatzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DD626401CA68F4400212A4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DD626201CA68F4200212A4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DD626271CA68F4200212A4F;
+			remoteInfo = SpielPlatz;
+		};
+		6DD6264B1CA68F4400212A4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DD626201CA68F4200212A4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DD626271CA68F4200212A4F;
+			remoteInfo = SpielPlatz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DD626281CA68F4300212A4F /* SpielPlatz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpielPlatz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD6262B1CA68F4300212A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DD6262D1CA68F4300212A4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DD626301CA68F4300212A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DD626331CA68F4300212A4F /* SpielPlatz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpielPlatz.xcdatamodel; sourceTree = "<group>"; };
+		6DD626351CA68F4300212A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DD626381CA68F4300212A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DD6263A1CA68F4300212A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD6263F1CA68F4400212A4F /* SpielPlatzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpielPlatzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD626431CA68F4400212A4F /* SpielPlatzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpielPlatzTests.swift; sourceTree = "<group>"; };
+		6DD626451CA68F4400212A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD6264A1CA68F4400212A4F /* SpielPlatzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpielPlatzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD6264E1CA68F4400212A4F /* SpielPlatzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpielPlatzUITests.swift; sourceTree = "<group>"; };
+		6DD626501CA68F4400212A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DD626251CA68F4200212A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD6263C1CA68F4400212A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD626471CA68F4400212A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DD6261F1CA68F4200212A4F = {
+			isa = PBXGroup;
+			children = (
+				6DD6262A1CA68F4300212A4F /* SpielPlatz */,
+				6DD626421CA68F4400212A4F /* SpielPlatzTests */,
+				6DD6264D1CA68F4400212A4F /* SpielPlatzUITests */,
+				6DD626291CA68F4300212A4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DD626291CA68F4300212A4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DD626281CA68F4300212A4F /* SpielPlatz.app */,
+				6DD6263F1CA68F4400212A4F /* SpielPlatzTests.xctest */,
+				6DD6264A1CA68F4400212A4F /* SpielPlatzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DD6262A1CA68F4300212A4F /* SpielPlatz */ = {
+			isa = PBXGroup;
+			children = (
+				6DD6262B1CA68F4300212A4F /* AppDelegate.swift */,
+				6DD6262D1CA68F4300212A4F /* ViewController.swift */,
+				6DD6262F1CA68F4300212A4F /* Main.storyboard */,
+				6DD626351CA68F4300212A4F /* Assets.xcassets */,
+				6DD626371CA68F4300212A4F /* LaunchScreen.storyboard */,
+				6DD6263A1CA68F4300212A4F /* Info.plist */,
+				6DD626321CA68F4300212A4F /* SpielPlatz.xcdatamodeld */,
+			);
+			path = SpielPlatz;
+			sourceTree = "<group>";
+		};
+		6DD626421CA68F4400212A4F /* SpielPlatzTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DD626431CA68F4400212A4F /* SpielPlatzTests.swift */,
+				6DD626451CA68F4400212A4F /* Info.plist */,
+			);
+			path = SpielPlatzTests;
+			sourceTree = "<group>";
+		};
+		6DD6264D1CA68F4400212A4F /* SpielPlatzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DD6264E1CA68F4400212A4F /* SpielPlatzUITests.swift */,
+				6DD626501CA68F4400212A4F /* Info.plist */,
+			);
+			path = SpielPlatzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DD626271CA68F4200212A4F /* SpielPlatz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD626531CA68F4400212A4F /* Build configuration list for PBXNativeTarget "SpielPlatz" */;
+			buildPhases = (
+				6DD626241CA68F4200212A4F /* Sources */,
+				6DD626251CA68F4200212A4F /* Frameworks */,
+				6DD626261CA68F4200212A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpielPlatz;
+			productName = SpielPlatz;
+			productReference = 6DD626281CA68F4300212A4F /* SpielPlatz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DD6263E1CA68F4400212A4F /* SpielPlatzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD626561CA68F4400212A4F /* Build configuration list for PBXNativeTarget "SpielPlatzTests" */;
+			buildPhases = (
+				6DD6263B1CA68F4400212A4F /* Sources */,
+				6DD6263C1CA68F4400212A4F /* Frameworks */,
+				6DD6263D1CA68F4400212A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DD626411CA68F4400212A4F /* PBXTargetDependency */,
+			);
+			name = SpielPlatzTests;
+			productName = SpielPlatzTests;
+			productReference = 6DD6263F1CA68F4400212A4F /* SpielPlatzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DD626491CA68F4400212A4F /* SpielPlatzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD626591CA68F4400212A4F /* Build configuration list for PBXNativeTarget "SpielPlatzUITests" */;
+			buildPhases = (
+				6DD626461CA68F4400212A4F /* Sources */,
+				6DD626471CA68F4400212A4F /* Frameworks */,
+				6DD626481CA68F4400212A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DD6264C1CA68F4400212A4F /* PBXTargetDependency */,
+			);
+			name = SpielPlatzUITests;
+			productName = SpielPlatzUITests;
+			productReference = 6DD6264A1CA68F4400212A4F /* SpielPlatzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DD626201CA68F4200212A4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GitHipster;
+				TargetAttributes = {
+					6DD626271CA68F4200212A4F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = N9KVQMMYFY;
+					};
+					6DD6263E1CA68F4400212A4F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = N9KVQMMYFY;
+						TestTargetID = 6DD626271CA68F4200212A4F;
+					};
+					6DD626491CA68F4400212A4F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = N9KVQMMYFY;
+						TestTargetID = 6DD626271CA68F4200212A4F;
+					};
+				};
+			};
+			buildConfigurationList = 6DD626231CA68F4200212A4F /* Build configuration list for PBXProject "SpielPlatz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DD6261F1CA68F4200212A4F;
+			productRefGroup = 6DD626291CA68F4300212A4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DD626271CA68F4200212A4F /* SpielPlatz */,
+				6DD6263E1CA68F4400212A4F /* SpielPlatzTests */,
+				6DD626491CA68F4400212A4F /* SpielPlatzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DD626261CA68F4200212A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD626391CA68F4300212A4F /* LaunchScreen.storyboard in Resources */,
+				6DD626361CA68F4300212A4F /* Assets.xcassets in Resources */,
+				6DD626311CA68F4300212A4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD6263D1CA68F4400212A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD626481CA68F4400212A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DD626241CA68F4200212A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD6262E1CA68F4300212A4F /* ViewController.swift in Sources */,
+				6DD626341CA68F4300212A4F /* SpielPlatz.xcdatamodeld in Sources */,
+				6DD6262C1CA68F4300212A4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD6263B1CA68F4400212A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD626441CA68F4400212A4F /* SpielPlatzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD626461CA68F4400212A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD6264F1CA68F4400212A4F /* SpielPlatzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DD626411CA68F4400212A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DD626271CA68F4200212A4F /* SpielPlatz */;
+			targetProxy = 6DD626401CA68F4400212A4F /* PBXContainerItemProxy */;
+		};
+		6DD6264C1CA68F4400212A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DD626271CA68F4200212A4F /* SpielPlatz */;
+			targetProxy = 6DD6264B1CA68F4400212A4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DD6262F1CA68F4300212A4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DD626301CA68F4300212A4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DD626371CA68F4300212A4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DD626381CA68F4300212A4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DD626511CA68F4400212A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DD626521CA68F4400212A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DD626541CA68F4400212A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpielPlatz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.hol.githipster.SpielPlatz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DD626551CA68F4400212A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpielPlatz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.hol.githipster.SpielPlatz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DD626571CA68F4400212A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpielPlatzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.hol.githipster.SpielPlatzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpielPlatz.app/SpielPlatz";
+			};
+			name = Debug;
+		};
+		6DD626581CA68F4400212A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpielPlatzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.hol.githipster.SpielPlatzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpielPlatz.app/SpielPlatz";
+			};
+			name = Release;
+		};
+		6DD6265A1CA68F4400212A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpielPlatzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.hol.githipster.SpielPlatzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpielPlatz;
+			};
+			name = Debug;
+		};
+		6DD6265B1CA68F4400212A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpielPlatzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.hol.githipster.SpielPlatzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpielPlatz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DD626231CA68F4200212A4F /* Build configuration list for PBXProject "SpielPlatz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD626511CA68F4400212A4F /* Debug */,
+				6DD626521CA68F4400212A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DD626531CA68F4400212A4F /* Build configuration list for PBXNativeTarget "SpielPlatz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD626541CA68F4400212A4F /* Debug */,
+				6DD626551CA68F4400212A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DD626561CA68F4400212A4F /* Build configuration list for PBXNativeTarget "SpielPlatzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD626571CA68F4400212A4F /* Debug */,
+				6DD626581CA68F4400212A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DD626591CA68F4400212A4F /* Build configuration list for PBXNativeTarget "SpielPlatzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD6265A1CA68F4400212A4F /* Debug */,
+				6DD6265B1CA68F4400212A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DD626321CA68F4300212A4F /* SpielPlatz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DD626331CA68F4300212A4F /* SpielPlatz.xcdatamodel */,
+			);
+			currentVersion = 6DD626331CA68F4300212A4F /* SpielPlatz.xcdatamodel */;
+			path = SpielPlatz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6DD626201CA68F4200212A4F /* Project object */;
+}
